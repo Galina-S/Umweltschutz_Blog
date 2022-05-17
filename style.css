@@ -41,6 +41,7 @@ hr {
 }
 
 .topnav {
+  width: 100vw;
   background-color: white;
   text-align: center;
   text-transform: uppercase;
