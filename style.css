@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Roboto+Mono:wght@100;200&display=swap');
+
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+
+body {
+  color: white;
+  background-image: url('images/umwelt.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #CEE0D6 ;
+  text-align: center;
+  font: Oswald, Montserrat, 'Times New Roman';
+}
+
+h1 {
+  margin-top: 200px;
+  font: bold;
+  font-size: 4rem;
+  text-align: center;
+  text-shadow: rgb(7, 16, 94) 0.1em 0.1em 0.2em;
+}
+
+h3 {
+  margin-top: 100px;
+  font-size: 1.5rem;
+  color: rgb(20, 53, 112);
+  text-align: center;
+  text-shadow: rgb(255, 255, 255) 0.1em 0.1em 0.2em;
+}
+
+h4 {
+  font-size: 1rem;
+  color: rgb(20, 53, 112);
+}
+
+hr {
+  border: 3px solid rgb(255, 255, 255);
+  box-shadow: rgb(7, 16, 94) 0.1em 0.1em 0.2em;
+  color: white;
+  width: 200px;
+}
+
+.topnav {
+  background-color: white;
+  text-align: center;
+  text-transform: uppercase;
+ }
+
+ul.topnav li {
+  float: left; /* horizontale Navigationsleiste*/
+  }
+
+ul.topnav {
+  overflow: hidden;
+ }
+
+ul.topnav li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 10px 40px;
+  padding-bottom: 0px;
+  text-decoration: none;
+}
+  
+li {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 100px;
+
+}
+
+ul.topnav li a:hover:not(.active) {
+  background-color: lightgrey;
+}
+
+#link2:visited {
+  color: blueviolet;
+} 
+
+#link2:active{
+  color: yellow;
+}
+
+#link:hover {
+  font-weight: bold;
+}
+#link{
+  font-size: large;
+  box-sizing: border-box;
+  text-align: center;
+}
+
+#WWF {
+  margin: 0; 
+  padding: 0;;
+  width: 100px;
+}
+
+footer {
+  position: fixed;
+  bottom: 0;
+  padding-bottom: 2vh;
+}
+
+.box {
+  float: left;
+  width: 48vw;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.box:last-child {
+  margin-right: 0;
+}
