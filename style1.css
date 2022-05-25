@@ -1,0 +1,49 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Oswald&family=Roboto+Mono:wght@100;200&display=swap');
+
+body {
+    background-color: #CEE0D6;
+    text-align: center;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+p { 
+    text-align: justify;
+}
+#image {
+    display: inline-block;
+    border-radius: 60%;
+    height: 300px;
+}
+
+#text { 
+    background:white;
+    padding: 15px  
+}
+
+footer{
+    margin-top: 50px;
+}
+
+
+@media screen and (max-width: 769px) {
+    p { 
+        text-align: left;
+        font-size: 0.7rem;
+    } 
+    h1 {
+        font-size: 1.5rem;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+    #image {
+        display: inline-block;
+        border-radius: 60%;
+        height: 200px;
+        width: 200px;
+  
+    }
+}
